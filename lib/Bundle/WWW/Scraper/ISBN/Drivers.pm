@@ -3,7 +3,7 @@ package Bundle::WWW::Scraper::ISBN::Drivers;
 use strict;
 use vars qw($VERSION);
 
-$VERSION = "1.02";
+$VERSION = "1.07";
 
 1;
 
@@ -41,7 +41,21 @@ WWW::Scraper::ISBN::AmazonUK_Driver
 
 WWW::Scraper::ISBN::AmazonUS_Driver
 
+WWW::Scraper::ISBN::BarnesNoble_Driver
+
+WWW::Scraper::ISBN::Blackwell_Driver
+
+WWW::Scraper::ISBN::BookDepository_Driver
+
 WWW::Scraper::ISBN::Booktopia_Driver
+
+WWW::Scraper::ISBN::EdenBooks_Driver
+
+WWW::Scraper::ISBN::EmporiumBooks_Driver
+
+WWW::Scraper::ISBN::Foyles_Driver
+
+WWW::Scraper::ISBN::GoogleBooks_Driver
 
 WWW::Scraper::ISBN::ISBNdb_Driver
 
@@ -56,6 +70,8 @@ WWW::Scraper::ISBN::ORA_Driver
 WWW::Scraper::ISBN::OpenLibrary_Driver
 
 WWW::Scraper::ISBN::Pearson_Driver
+
+WWW::Scraper::ISBN::PickABook_Driver
 
 WWW::Scraper::ISBN::Siciliano_Driver
 
@@ -85,7 +101,11 @@ WWW::Scraper::ISBN::TWTenlong_Driver
 
 WWW::Scraper::ISBN::TWYlib_Driver
 
+WWW::Scraper::ISBN::Waterstones_Driver
+
 WWW::Scraper::ISBN::Wheelers_Driver
+
+WWW::Scraper::ISBN::WHSmith_Driver
 
 WWW::Scraper::ISBN::WordPower_Driver
 
@@ -100,7 +120,7 @@ RT system (http://rt.cpan.org/Public/Dist/Display.html?Name=Bundle-WWW-Scraper-I
 However, it would help greatly if you are able to pinpoint problems or even
 supply a patch.
 
-Fixes are dependant upon their severity and my availablity. Should a fix not
+Fixes are dependent upon their severity and my availability. Should a fix not
 be forthcoming, please feel free to (politely) remind me.
 
 If you write a new driver, please add an RT ticket to the above queue,
@@ -113,7 +133,7 @@ and I'll add it to the list.
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright (C) 2010 Barbie for Miss Barbell Productions
+  Copyright (C) 2010-2012 Barbie for Miss Barbell Productions
 
   This module is free software; you can redistribute it and/or
   modify it under the Artistic Licence v2.
