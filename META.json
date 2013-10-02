@@ -50,6 +50,11 @@
 
     "resources": {
         "license": "http://www.perlfoundation.org/artistic_license_2_0",
-        "bugtracker": { "web": "http://rt.cpan.org/Public/Dist/Display.html?Name=Bundle-WWW-Scraper-ISBN-Drivers" }
+        "bugtracker": { "web": "http://rt.cpan.org/Public/Dist/Display.html?Name=Bundle-WWW-Scraper-ISBN-Drivers" },
+        "repository": {
+            "url": "git://github.com/barbie/bundle-www-scraper-isbn-drivers.git",
+            "web": "http://github.com/barbie/bundle-www-scraper-isbn-drivers",
+            "type": "git"
+        }
     }
 }
