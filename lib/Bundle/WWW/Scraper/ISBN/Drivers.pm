@@ -26,11 +26,11 @@ prerequisites.
 
 =head1 CONTENTS
 
-WWW::Scraper::ISBN          0.25
+WWW::Scraper::ISBN          1.00
 
-WWW::Scraper::ISBN::Driver  0.18
+WWW::Scraper::ISBN::Driver  1.00
 
-WWW::Scraper::ISBN::Record
+WWW::Scraper::ISBN::Record  1.00
 
 WWW::Scraper::ISBN::AmazonDE_Driver
 
