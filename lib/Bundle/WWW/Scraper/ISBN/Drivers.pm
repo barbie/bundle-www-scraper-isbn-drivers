@@ -46,6 +46,8 @@ WWW::Scraper::ISBN::Blackwell_Driver
 
 WWW::Scraper::ISBN::BookDepository_Driver
 
+WWW::Scraper::ISBN::Bookstore_Driver
+
 WWW::Scraper::ISBN::Booktopia_Driver
 
 WWW::Scraper::ISBN::Foyles_Driver
